@@ -1,1 +1,1 @@
-# udacity_weather_trends
+This project was created as part of the Udacity Data Analyst Nanodegree. It examines the differences between the average temperature change between Columbus, Ohio and the global temperatures from 1787-2013.
