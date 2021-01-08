@@ -1,0 +1,8 @@
+SELECT g.year AS year,
+       g.avg_temp AS global_avg_temp,
+       c.avg_temp AS columbus_avg_temp
+FROM global_data g
+JOIN city_data c
+ON g.year = c.year
+WHERE c.city = 'Columbus'
+ORDER BY g.year;
